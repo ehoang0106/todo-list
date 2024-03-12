@@ -2,13 +2,14 @@
 const TodoItem = (props) => {
 
 
-
-
     return (  
-        <div onClick={() => {
+        <div className="ToDoItem" onClick={() => {
             props.onChecked(props.id);
         }}>
-            <li>{props.text}</li>
+            <li>
+                {props.text} <span><button style={{color: "red"}}>x</button></span>
+                
+            </li>
         </div>
     );
 }
