@@ -16,8 +16,8 @@ body {
     width: 100%;
     height: auto;
     min-height: 500px;
-    max-width: 500px;
-    min-width: 250px;
+    max-width: 800px;
+    min-width: 350px;
     background: #f1f5f8;
     background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
     background-size: 25px 25px;
@@ -57,7 +57,7 @@ body {
     margin-bottom: 20px;
 }
 
-button {
+.form button {
     padding: 0;
     border: none;
     font-family: "Architects Daughter", cursive;
@@ -79,4 +79,14 @@ li {
     text-align: left;
     position: relative;
     padding: 0.5rem;
+}
+
+.ToDoItem button {
+    background: #f1f5f8;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid hsl(198, 1%, 29%);
+    left: auto;
+    margin-left: 20px;
+    
 }
