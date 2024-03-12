@@ -9,6 +9,7 @@ function App() {
     function handleChange(event) {
         const newValue = event.target.value;
         setInputText(newValue);
+        
     }
 
     function addItem() {
